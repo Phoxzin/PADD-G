@@ -1,0 +1,163 @@
+* {
+
+    margin: 0;
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #202023;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #262228;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #a9a9a9;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+#cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1d1d1f;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: gray;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+
+}
+
+a.index:hover {
+    color: #202023;
+
+}
+
+a.xbox:hover {
+    color: #9bc848;
+}
+
+.logo {
+    width: 65px;
+}
+
+#principal {
+    border-top: 3px solid #0069c1;
+    margin-bottom: 300px;
+}
+
+h1 {
+    margin-top: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    color: #f5f6f7;
+    margin-bottom: 55px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#catalogo {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.catalogo {
+    width: 200px;
+    height: 252px;
+}
+
+a.catalogo:hover {
+    border: 3px solid #0069c1;
+    border-radius: 20px;
+}
+
+#pbusca {
+    margin-right: 10px;
+}
+
+#divbusca {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 380px;
+    margin-left: 10px;
+}
+
+#txtbusca {
+    float: left;
+    background-color: transparent;
+    background-color: #f5f6f7;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid;
+}
+
+#rodape {
+    background-color: #1a171b;
+    padding: 10px;
+    position: static;
+    bottom: 0px;
+}
+
+.rodapepri {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.rodapeseg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3px;
+    border-top: 1px solid #373737;
+    list-style: none;
+}
+
+.rodapeseg li {
+    color: #dfdce3;
+    text-decoration: none;
+}

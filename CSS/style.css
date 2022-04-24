@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #262228;
+    color: #dfdce3;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #262228;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #a9a9a9;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #dfdce3;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header {
+    position: fixed;
+    background-color: #262228;
+    width: 100%;
+}
+
+#logo {
+    padding-top: 10px;
+    height: 50px;
+}
+
+.menu {
+    list-style: none;
+    float: left;
+    color: #dfdce3;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-radius: 1px;
+}
+
+.menu li a {
+    color: #dfdce3;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu a:hover {
+    color: #373737;
+}
+
+li .play:hover {
+    color: #0069c1;
+
+}
+
+li .xbox:hover {
+    color: #9bc848;
+}
+
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #414141;
+    border-radius: 15px;
+    display: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+    display: block;
+}
+
+.menu li ul li {
+    display: block;
+    width: 150px;
+}
+
+#principal {
+    padding-top: 75px;
+}
+
+.news {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    color: #f5f6f7;
+}
+
+#news {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    color: #f5f6f7;
+    padding-bottom: 20px;
+}
+
+.newsxbox {
+    width: 600px;
+    height: 500px;
+}
+
+a.newsxbox:hover {
+    border: 3px solid #9bc848;
+    border-radius: 20px;
+    width: 610px;
+    height: 500px;
+}
+
+.newsplay {
+    width: 600px;
+    height: 500px;
+}
+
+a.newsplay:hover {
+    border: 3px solid #0069c1;
+    border-radius: 20px;
+}
+
+#section2 {
+    border-top: 1px solid #3c3c3c;
+    padding-top: 50px;
+    border-bottom: 1px solid #3c3c3c;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section2Div1 {
+    display: flex;
+    justify-content: center;
+}
+
+.section2Div2 {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    font-size: 30px;
+    font-family: 'Akshar', sans-serif;
+}
+
+#section3 {
+    border-top: 1px solid #3c3c3c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section3Div1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#catalogo {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 100px;
+}
+
+
+.catalogo {
+    width: 200px;
+    height: 252px;
+}
+
+.itemCatalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+#rodape {
+    background-color: #1a171b;
+    padding: 10px;
+    position: static;
+}
+
+.rodapepri {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.rodapeseg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3px;
+    border-top: 1px solid #373737;
+    list-style: none;
+}
+
+.rodapeseg li {
+    color: #dfdce3;
+    text-decoration: none;
+}
+
+#pbusca {
+    margin-right: 10px;
+}
+
+#divbusca {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 380px;
+    margin-left: 10px;
+}
+
+#txtbusca {
+    float: left;
+    background-color: transparent;
+    background-color: #f5f6f7;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid;
+}
